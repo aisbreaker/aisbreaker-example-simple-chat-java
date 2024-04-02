@@ -1,0 +1,24 @@
+plugins {
+	id 'java'
+}
+
+group = 'org.aisbreaker.example'
+version = '0.0.1'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.aisbreaker:aisbreaker-api-java:0.1.1'
+}
+
+task run(type: JavaExec) {
+    mainClass = 'org.aisbreaker.example.AIsBreakerSimpleChat'
+    classpath = sourceSets.main.runtimeClasspath
+}
