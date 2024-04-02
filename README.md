@@ -2,14 +2,14 @@
 
 ## Introduction
 
-This repo contains the example application `src/main/java/org/aisbreaker/example/AIsBreakerSimpleChat.java`
+This repo contains the example application [`AIsBreakerSimpleChat.java`](src/main/java/org/aisbreaker/example/AIsBreakerSimpleChat.java) for
 using package `org.aisbreaker:aisbreaker-api-java` in a Java application.
 
 [AIsBreaker.org](https://aisbreaker.org/) offers a developer-friendly API for streamlined access to a variety of generative AI services, including OpenAI/ChatGPT, all Hugging Face AIs, Google Gemini AI, and more ... to provide simplicity and to avoid vendor lock-in.
 
 This example is build with [gradle](https://gradle.org/), but other build tools like [maven](https://maven.apache.org/) could be used as well.
 
-Docs and more: [aisbreaker.org: Getting Started - with Java/Kotlin/JVM](https://aisbreaker.org/docs/getting-started-with-java)
+Docs and more: [AIsBreaker.org: Getting Started - with Java/Kotlin/JVM](https://aisbreaker.org/docs/getting-started-with-java)
 
 
 ## Run the demo
